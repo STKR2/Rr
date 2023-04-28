@@ -1,8 +1,10 @@
 tgcrypto
 requests
-youtube_dl
+git+https://github.com/yt-dlp/yt-dlp.git
 ffmpeg-python
-python-dotenv
+python-doten
 pyrogram==1.4.16
 pytgcalls==3.0.0.dev21
 youtube_search_python==1.4.9
+youtube-search-python
+youtube-search
