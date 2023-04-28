@@ -34,7 +34,7 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "xl444")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "VVRVV3")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "دوخر لانيجمك")
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", " ")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
