@@ -26,15 +26,15 @@ admins = {}
 OLD_PMS = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AsmSupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
+API_ID = int(getenv("API_ID", "8934899"))
+API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")
+BOT_TOKEN = getenv("BOT_TOKEN", "5249489492:AAFEuC8rLTz-ticTrf_7OLE0QYzoUNCOewY")
+SESSION_STRING = getenv("SESSION_STRING", "BACIVfMAs0JxAI8WxNI7p4H03zmjZjqdgLmOmB_zxc9ge6Vpd0sO3DfL9a3azboec3kErwDtpJXwrQqtgl97uDfCgH9C5rJkgP2ZiajdLZcPErHCcf2ED1gESl-lgVrOhziWyTShmuroyK99EK1ztR6kOt3mBZXMaJs6HWpH5dphGkJNTDFrcXc4_U5uPUO1gpQB5ssdwZILdbo78SJ88LnNcL7oiIVlb_cmSuRzoKgOhk9Q6EkVjDDKifRSR83v75jsNFB2V4u-PVgK--gN5qsh2mf_ax2zCsQGR9Tq33Rg1IiPwqYlceSNUK_Db-rAnb4ounqJMS0FA3N3CcnpXD6pVUT8lAAAAAF13-NdAA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "xl444")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "hi")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
